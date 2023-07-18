@@ -23,23 +23,6 @@ td {
 	행 : <%=row %></br>
 	열 : <%=col %></br>
 	<hr>
-	
-	<table>
-		<%
-			for(int i=0;i<row;i++)
-			{
-			%>	
-				<tr>
-				
-				
-				
-				</tr>
-			<%	
-			}
-		%>
-		
-	
-	</table>
 
 </body>
 </html>
