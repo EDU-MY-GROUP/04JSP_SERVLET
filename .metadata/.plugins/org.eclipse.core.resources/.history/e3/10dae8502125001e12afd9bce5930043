@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<form action="01Result.jsp" method="get">
+	<form action="" method="">
 		제목 : <input type="text" name="title"  /><br/>
 		배경색:
 		<select name="bgcolor" id="">
