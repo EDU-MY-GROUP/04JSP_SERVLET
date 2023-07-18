@@ -22,8 +22,6 @@
 	<input type="text"  />
 </form>
 
-
-
 <script>
 	const form= document.frm;
   	form[0].value="<%=msg1%>";
@@ -31,5 +29,7 @@
   	form[2].value="<%=msg3%>";
   	form[3].value="<%=msg4%>";	
 </script>
+
+
 </body>
 </html>
