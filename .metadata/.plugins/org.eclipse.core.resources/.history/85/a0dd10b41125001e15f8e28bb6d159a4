@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<%
+	String str1 = "HELLO1";	//변수 정의 가능
+	String str2 = "HELLO2"; //변수 정의 가능
+	String str3 = str1 + str2; //연산 가능
+	int a=0;
+	for(int i=0;i<10;i++){
+		System.o
+	}
+%>
+
+
+</body>
+</html>
