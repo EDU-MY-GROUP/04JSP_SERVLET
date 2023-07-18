@@ -60,7 +60,7 @@
 			form.submit();	//전송		
 	}
 	
- 
+	 
 </script>
 
 </html>

@@ -257,3 +257,16 @@
 0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:34:11 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=aaa&bgcolor=red&hobbys=climing&hobbys=swimming&hobbys=reading HTTP/1.1" 200 137
 0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:34:46 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/02Request_Post.html HTTP/1.1" 200 762
 0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:34:51 +0900] "POST /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/02Result.jsp HTTP/1.1" 200 137
+127.0.0.1 - - [18/Jul/2023:13:45:32 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:45:33 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/03JspToJS.jsp HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:08 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp HTTP/1.1" 200 905
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:11 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:12 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:12 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:13 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:13 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:14 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:15 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:15 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:19 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp HTTP/1.1" 200 905
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:48:27 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/04JsToJsp.jsp?param1=red&param2=orange&param3=yellow&param4=green HTTP/1.1" 200 889

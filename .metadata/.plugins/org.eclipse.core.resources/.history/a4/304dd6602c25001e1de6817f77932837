@@ -1,0 +1,13 @@
+package C03;
+
+public class SampleDto {
+	private String name;
+	private int age;
+	private String addr;
+	
+	//Getter and Setter
+	//기본 생성자
+	//모든 인자 생성자
+	//ToString();
+
+}

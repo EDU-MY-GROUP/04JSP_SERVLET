@@ -1,0 +1,39 @@
+01 JDK 설치
+
+02 TOMCAT Ver  9 설치 (설치 후 비활성화)
+
+03 Eclipse Web 설치 
+
+04 Eclipse Web 설정
+
+- Dynamic Web Project
+file->new->Dynamic Web Project
+
+
+- Tomcat Server 연결
+file->new -> other -> server검색후 선택 -> apache -> Tomcat Ver 9 -> finish
+하단 servers 클릭 -> Tomcat V9.0 Server 더블클릭 -> Admin port 8081 선택 후 저장(ctrl+s)
+Tomcat V9.0 Server 우클릭 -> add And Remove -> 01JSP프로젝트폴더 오른쪽으로 옮기기
+ 
+
+- Tomcat Server - Web Project 설정
+
+
+- Files Encoding UTF-8
+window -> preference -> files 검색 -> css,html,jsp 의 Encoding 을 UTF-8설정
+
+- Web Project별 Web.xml 생성 후 관리
+프로젝트 우클릭 -> JAVA EE Tools -> Generate Deployment Descriptor stub클릭
+
+- Emmet 설치하기
+https://soda-dev.tistory.com/9
+
+
+- JSDT  설치하기(자바스크립트 자동완성)
+https://idjeon81.tistory.com/entry/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-Javascript-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8JSDT-%EC%84%A4%EC%B9%98
+Eclipse IDE 설치: JSDT를 사용하려면 Eclipse IDE를 먼저 설치해야 합니다. Eclipse는 공식 웹사이트(https://www.eclipse.org/downloads/)에서 다운로드할 수 있습니다. Eclipse IDE for Java EE Developers를 선택하여 설치하면 JSP 개발을 위한 필수 도구들이 함께 제공됩니다.
+JSDT 플러그인 설치: Eclipse를 실행한 후, Help -> Eclipse Marketplace를 선택합니다. 이후 Marketplace 창에서 "JavaScript Development Tools" 또는 "JSDT"라고 검색하여 JSDT 플러그인을 찾아 설치합니다.
+프로젝트 설정: JSP를 포함하는 프로젝트를 생성하거나 기존 프로젝트를 엽니다. 프로젝트를 우클릭하고 Properties를 선택한 다음, "JavaScript" 또는 "Web" 카테고리에서 "JavaScript" 또는 "Web"을 선택합니다. 여기서 JavaScript 항목을 찾고, JSDT 플러그인이 제대로 설치되었는지 확인합니다.
+JavaScript 파일 추가: JSDT를 사용하여 JSP 파일에 JavaScript를 적용하려면 해당 JSP 파일에 JavaScript 코드를 포함하는 .js 확장자를 가진 JavaScript 파일을 추가해야 합니다. 일반적으로 <script> 태그를 사용하여 JavaScript 파일을 참조하도록 JSP 파일을 수정해야 합니다.
+JSDT 기능 활용: JSP 파일 내에서 JavaScript를 작성하는 동안, JSDT의 다양한 기능을 활용할 수 있습니다. 예를 들어, 코드 완성, 자동 서식 지원, 오류 감지 등을 사용할 수 있습니다. 이러한 기능은 JavaScript 코드를 작성하는 동안 개발 효율성을 높여줍니다.
+
