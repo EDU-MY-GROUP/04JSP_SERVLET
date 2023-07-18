@@ -30,9 +30,13 @@ td {
 			{
 			%>	
 				<tr>
-				
-				
-				
+					<%
+						for(int j=0;j<col;j++){
+						%>							
+							<td></td>
+						<% 
+						}
+						%>
 				</tr>
 			<%	
 			}
@@ -40,10 +44,13 @@ td {
 		
 	
 	</table>
+	
+	<script>
+		document.get
+	</script>
 
 </body>
 </html>
-
 
 
 

@@ -1,10 +1,7 @@
 INDEX VERSION 1.4+C:\임베디드웹과정임시공유폴더\eclipse_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 3804319158.index
-2764577048.index
-1045447145.index
 4166740045.index
-3335535564.index
-83295404.index
-229540404.index
-83295404.index
+1045447145.index
 1177741474.index
+229540404.index
+2764577048.index
