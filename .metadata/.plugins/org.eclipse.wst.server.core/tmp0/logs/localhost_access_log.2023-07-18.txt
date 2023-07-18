@@ -229,3 +229,14 @@
 0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:09:29 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 200 692
 0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:12:08 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 200 716
 0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:12:21 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:13:29 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 200 758
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:14:28 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=%EC%A0%9C%EB%AA%A9%EC%A0%9C%EB%AA%A9&bgcolor=orange&hobbys=climing&hobbys=swimming HTTP/1.1" 404 824
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:17:47 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:18:05 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=%EC%A0%9C%EB%AA%A9%EC%A0%9C%EB%AA%A9&bgcolor=orange&hobbys=climing&hobbys=swimming HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:18:12 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=%EC%A0%9C%EB%AA%A9%EC%A0%9C%EB%AA%A9&bgcolor=orange&hobbys=climing&hobbys=swimming HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:18:15 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=%EC%A0%9C%EB%AA%A9%EC%A0%9C%EB%AA%A9&bgcolor=orange&hobbys=climing&hobbys=swimming HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:19:11 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=%EC%A0%9C%EB%AA%A9%EC%A0%9C%EB%AA%A9&bgcolor=orange&hobbys=climing&hobbys=swimming HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:20:22 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:20:27 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=aaaa&bgcolor=orange&hobbys=climing&hobbys=swimming HTTP/1.1" 200 141
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:23:26 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Request_Get.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:23:29 +0900] "GET /01JSP/C02%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0/01Result.jsp?title=wwww&bgcolor=etc HTTP/1.1" 200 139

@@ -6,7 +6,6 @@
 	String bgcolor = request.getParameter("bgcolor");
 	String hobbys[] = request.getParameterValues("hobbys");
 	
-		
 	if(bgcolor.equals("etc")){
 		bgcolor="gray";
 	}
