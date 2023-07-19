@@ -23,5 +23,7 @@
 		SampleDto dto = new SampleDto(name,age,addr);
 		out.println(dto);
 	%>
+	
+
 </body>
 </html>
