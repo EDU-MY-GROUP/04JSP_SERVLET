@@ -19,8 +19,7 @@
 		//새로운 속성값을 Request에 추가하기
 		request.setAttribute("02Page","02Page_Value");
 		
-		//Forwarding
-		request.getRequestDispatcher("03Page.jsp").forward(request,response);
+	
 		
 	%>
 

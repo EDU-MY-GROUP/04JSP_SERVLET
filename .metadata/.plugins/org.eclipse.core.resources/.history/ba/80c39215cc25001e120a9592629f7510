@@ -7,8 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>02PAGE</h1>
-	<% 
+	<h1>03PAGE</h1>
+	
+		<% 
 		String userid = request.getParameter("userid");
 		String pwd = request.getParameter("pwd");
 		System.out.println("---------02Page---------");
@@ -23,6 +24,6 @@
 		request.getRequestDispatcher("03Page.jsp").forward(request,response);
 		
 	%>
-
+	
 </body>
 </html>
