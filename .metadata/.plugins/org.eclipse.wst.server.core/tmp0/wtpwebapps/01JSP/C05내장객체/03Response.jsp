@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>03RESPONSE</h1>
+
 <%@page import="java.io.*" %>
 <%
 	//Redirect 경로 지정
@@ -23,6 +23,7 @@
 	bout.close(); */
 	
 	PrintWriter o =  response.getWriter();
+	o.println("<h1>03RESPONSE</h1>");
 	o.println("<h2>TEST</h2>");
 	
 %>
