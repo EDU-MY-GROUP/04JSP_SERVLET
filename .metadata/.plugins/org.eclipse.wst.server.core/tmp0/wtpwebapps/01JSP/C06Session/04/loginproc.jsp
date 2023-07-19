@@ -22,9 +22,9 @@
 		//3 Service
 		session.setAttribute("userid",userid);
 		session.setAttribute("remoteip",request.getRemoteAddr());
-		session.setMaxInactiveInterval(60*60); // 30분 => 60*30
-											// 1시간 => 60*60
-											// 1일 => 60*60*24
+		session.setMaxInactiveInterval(60*60); 		// 30분 => 60*30
+													// 1시간 => 60*60
+													// 1일 => 60*60*24
 		//sessionDto의 속성중 Map을 Get하여 userid와 session객체주소를 저장
 		sessionDto.getSessionMap().put(userid,session);				
 		//4 View
