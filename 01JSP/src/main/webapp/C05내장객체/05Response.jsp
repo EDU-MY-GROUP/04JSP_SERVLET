@@ -17,7 +17,11 @@
 	try{
 		File dir = new File(realPath); //File dir 경로 설정
 		File filelist[] = dir.listFiles(); //dir 안 모들 파일정보를 File 배열형태로 받기
-
+		
+		for(int i=0;i<filelist.length;i++){
+			System.out.println(filelist[i]);
+		}
+		
 		FileInputStream fin = null;
 		ZipEntry zipEntry = null;	//Zip 묶여지는 단일파일 단위 
 
@@ -30,6 +34,7 @@
 		//[오류해결] 이 응답을 위해 getOutputStream()이 이미 호출되었습니다.
 		out.clear(); //response outstream 을 닫고 버퍼를 비움 
 		out = pageContext.pushBody(); //현재 페이지 body 연결
+		
 		ServletOutputStream bout = response.getOutputStream();
 		
 		//추가

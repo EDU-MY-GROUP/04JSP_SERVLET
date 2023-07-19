@@ -9,6 +9,7 @@
 <body>
 
 	<a href="04Response.jsp">DOWN_Text1.txt</a>
+	<a href="05Response.jsp">DOWN_ZIP</a>
 	
 	
 </body>
