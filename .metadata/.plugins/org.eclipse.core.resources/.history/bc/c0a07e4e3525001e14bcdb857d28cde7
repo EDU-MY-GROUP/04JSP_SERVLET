@@ -24,6 +24,8 @@
 		out.println(dto);
 	%>
 	
-
+	<script>
+		
+	</script>
 </body>
 </html>
