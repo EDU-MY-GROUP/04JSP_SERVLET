@@ -9,6 +9,10 @@
 <body>
 <jsp:useBean id="sessionDto" class="Ch08.SessionDto" scope="application" />
 <%
+	
+	
+
+
 	//1 파라미터 받기
 	String userid = request.getParameter("userid");
 	String pwd = request.getParameter("pwd");

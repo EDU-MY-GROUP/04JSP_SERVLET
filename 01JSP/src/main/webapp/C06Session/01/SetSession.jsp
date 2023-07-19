@@ -9,6 +9,7 @@
 <body>
 
 <%
+
 	session.setAttribute("ID", "example@example.com");
 	session.setAttribute("PW", "1111");
 	session.setMaxInactiveInterval(10);

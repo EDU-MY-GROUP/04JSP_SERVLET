@@ -10,7 +10,7 @@
 <script defer>
 	//비동기 함수  : setInterval('함수명',반복시간); //반복시간마다 함수안의 로직을 수행 
 	
-	let max = <%=session.getMaxInactiveInterval()%>;
+	let max = <%=session.getMaxInactiveInterval()%>; //20
 	
 	function timer(){
 		max = max-1;
