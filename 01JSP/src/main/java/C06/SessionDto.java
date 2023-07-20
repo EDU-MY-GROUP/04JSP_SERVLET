@@ -1,4 +1,4 @@
-package Ch08;
+package C06;
 
 import java.util.HashMap;
 import java.util.Map;

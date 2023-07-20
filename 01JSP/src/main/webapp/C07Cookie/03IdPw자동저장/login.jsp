@@ -33,28 +33,12 @@
 		}
 		
 	%>
-
 	<form action="loginproc.jsp" method="post">
-		<input type=text name=userid value="<%=(idchk!=null)?userid:"" %>"  /><br>
-		<input type=password name=pwd  value="<%=(pwdchk!=null)?pwd:"" %>" /><br>
-		
-		<%
-		if(idchk!=null)
-			out.println("<input type=checkbox name=idchk  checked/> ID저장");
-		else
-			out.println("<input type=checkbox name=idchk  /> ID저장");	
-		
-		if(pwdchk!=null)
-			out.println("<input type=checkbox name=pwdchk  checked/>PW저장<br>");
-		else
-			out.println("<input type=checkbox name=pwdchk  />PW저장<br>");	
-		%>		
-		
-	 
-		
-		
-		<input type="submit" value="로그인"/>
-		
+		<input type=text name=userid value="<%=(userid!=null)?userid:"" %>"  /><br>
+		<input type=password name=pwd  value="<%=(pwd!=null)?pwd:"" %>" /><br>
+		<input type=checkbox name=idchk    <%=(idchk!=null)?"checked":"" %>/> ID저장
+		<input type=checkbox name=pwdchk  <%=(pwdchk!=null)?"checked":"" %>/>PW저장<br>
+		<input type="submit" value="로그인"/>	
 	</form>
 </body>
 </html>

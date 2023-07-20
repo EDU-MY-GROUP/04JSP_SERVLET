@@ -21,7 +21,7 @@
 	
 	Cookie cookie3 = new Cookie("c3","V3");
 	cookie3.setMaxAge(60*60);
-	cookie3.setPath("/JSP/09Cookie/01basic");	//지정된 URL로만 전달 
+	cookie3.setPath("/01JSP/C07Cookie/02path/test.jsp");	//지정된 URL로만 전달 
 	
 	//쿠키 전달
 	response.addCookie(cookie);
