@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>MAIN PAGE</h1>
+Email : ${email}<br/>
+Pwd : ${pwd}<br/>
 </body>
 </html>

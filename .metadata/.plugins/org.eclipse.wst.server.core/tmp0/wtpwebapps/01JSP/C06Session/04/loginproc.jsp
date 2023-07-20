@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:useBean id="sessionDto" class="Ch08.SessionDto" scope="application" />
+<jsp:useBean id="sessionDto" class="C06.SessionDto" scope="application" />
 <%
 	
 	
