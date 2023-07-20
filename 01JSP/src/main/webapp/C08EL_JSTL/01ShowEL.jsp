@@ -26,6 +26,12 @@
 	/* Person객체 생성 */
 	Person obj = new Person("홍길동",55,"대구");
 	request.setAttribute("obj", obj);
+	
+	/* null 확인 */
+	Integer list1[]=null;
+	Integer list2[]={1,2,3};
+	request.setAttribute("list1", list1);
+	request.setAttribute("list2", list2);
 %>
 USERID : <%=userid %><br/>
 PWD : <%=pwd %><br/>
@@ -49,5 +55,15 @@ PWD : <%=pwd %><br/>
 <hr/>
 [ETC] 연산처리 : <%=1+Integer.parseInt("1") %><br/>
 [ETC] 연산처리 : ${1+"1"} <br/>
+<hr/>
+<%-- [NULL] empty null : <%=null %><br> --%>
+[NULL] empty null : ${ null }<br>
+[NULL] empty null : ${ empty null }<br>
+[NULL] list1==null : ${ list1==null }<br>
+[NULL] empty list1 : ${ empty list1 }<br>
+[NULL] empty list2 : ${ empty list2 }<br>
+
+
+
 </body>
 </html>
