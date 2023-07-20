@@ -17,7 +17,12 @@ Tomcat V9.0 Server 우클릭 -> add And Remove -> 01JSP프로젝트폴더 오른
  
 
 - Tomcat Server - Web Project 설정
-
+- Server Tab안의 Tomcat V9.0 Server 더블클릭
+- HTTP Port 8080 , admin Port 8081 선택 후 저장(ctrl+s)
+- Web Project 우클릭 Properties -> Project Facets -> Java Version 11 로 지정 
+  -> RunTime 탭클릭 -> Apache 체크 후 Apply
+- server카테고리 -> tomcat 선택 후 저장 나가기 
+ 
 
 - Files Encoding UTF-8
 window -> preference -> files 검색 -> css,html,jsp 의 Encoding 을 UTF-8설정

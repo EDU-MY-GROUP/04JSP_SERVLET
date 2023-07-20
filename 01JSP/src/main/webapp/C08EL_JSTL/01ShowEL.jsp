@@ -19,9 +19,11 @@
 	session.setAttribute("S_KEY", "S_VALUE");
 	
 	/* Context key 중복 */
-	pageContext.setAttribute("KEY", "P_VALUE");
+	
+ 	pageContext.setAttribute("KEY", "P_VALUE");
 	request.setAttribute("KEY", "R_VALUE");
-	session.setAttribute("KEY", "S_VALUE");
+	session.setAttribute("KEY", "S_VALUE"); 
+	pageContext.getServletContext().setAttribute("KEY", "ServletContext_VALUE");
 	
 	/* Person객체 생성 */
 	Person obj = new Person("홍길동",55,"대구");
@@ -62,6 +64,7 @@ PWD : <%=pwd %><br/>
 [NULL] list1==null : ${ list1==null }<br>
 [NULL] empty list1 : ${ empty list1 }<br>
 [NULL] empty list2 : ${ empty list2 }<br>
+
 
 
 
