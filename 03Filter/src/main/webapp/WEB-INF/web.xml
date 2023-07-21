@@ -9,6 +9,30 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>login.do</welcome-file>
-    
+  
   </welcome-file-list>
+  
+ 
+ 
+  <filter>
+  	<filter-name>C01FrontFilter</filter-name>
+  	<filter-class>Filter.C01FrontFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>C01FrontFilter</filter-name>
+  	<url-pattern>/login.do</url-pattern>
+  </filter-mapping>  
+  
+  
+  <filter>
+  	<filter-name>C02SecondFilter</filter-name>
+  	<filter-class>Filter.C02SecondFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>C02SecondFilter</filter-name>
+  	<url-pattern>/login.do</url-pattern>
+  </filter-mapping>  
+
+  
+  
 </web-app>

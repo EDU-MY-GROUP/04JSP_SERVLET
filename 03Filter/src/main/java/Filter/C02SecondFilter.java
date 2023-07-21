@@ -11,17 +11,17 @@ import javax.servlet.annotation.WebFilter;
 
 
 //@WebFilter("/login.do")
-public class C01FrontFilter implements Filter{
+public class C02SecondFilter implements Filter{
 
 	@Override
 	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
 			throws IOException, ServletException {
 		
-		System.out.println("C01FrontFilter Start-----");
+		System.out.println("C02SecondFilter Start-----");
 		
 		chain.doFilter(req, resp);
 		
-		System.out.println("C01FrontFilter End-----");
+		System.out.println("C02SecondFilter End-----");
 		
 	}
 

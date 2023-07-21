@@ -20,8 +20,13 @@ public class LoginServlet extends HttpServlet{
 	}
 
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {	
 		System.out.println("doPost LoginServlet -----");
+		
+		// 요청과 응답의 인코딩을 UTF-8로 설정
+        req.setCharacterEncoding("UTF-8");
+        resp.setCharacterEncoding("UTF-8");
+        resp.setContentType("text/html; charset=UTF-8");
 		
 		String userid = req.getParameter("userid");
 		String pwd = req.getParameter("pwd");
@@ -29,8 +34,9 @@ public class LoginServlet extends HttpServlet{
 		System.out.println("userid : " + userid);
 		System.out.println("pwd : " + pwd);
 		
-
-		
+		PrintWriter out = resp.getWriter();
+		out.print("USERID : " + userid);
+		out.print("PWD : " + pwd);
 		
 	}
 
